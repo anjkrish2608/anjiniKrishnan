@@ -1,0 +1,134 @@
+div.card.m-1.p-4{
+    margin: 0;
+    width: 250px;
+}
+button{
+    border-color: white;
+    background-color: white;
+    color: black;
+}
+.whiteThis{
+    color:white;
+}
+body{
+    background-color: #A9A9A9;
+}
+.main{
+    background-color: white;
+}
+footer{
+    margin: 0px;
+    padding-left: 10px;
+    border: 0px;
+}
+a.projectButton.btn-success:link{
+    text-decoration: none;
+}
+div.col-lg-3.main{
+    padding: 0;
+}
+
+/*xs*/
+@media only screen and (max-width:575px){
+    .container{
+        margin: 0;
+        padding:0;
+        border: 0;
+    }
+    h1{
+        font-size: 4vw;
+    }
+    
+    h4{
+        font-weight: bold;
+        font-size: 3.1vw;
+    }
+    
+    p{
+        font-size: 3vw;
+    }
+    img{
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/*s*/
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .container{
+        margin: 2px;
+        padding:2px;
+    }
+    h1{
+        font-size: 10vw;
+    }
+    
+    h4{
+        font-weight: bold;
+        font-size: 3vw;
+    }
+    
+    p{
+        font-size: 2vw;
+    }
+    img{
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/*m*/
+@media only screen and (min-width: 768pxpx) and (max-width: 991px){
+    .container{
+        margin: 0 100px;
+        padding:auto;
+    }
+    h1{
+        font-size: 4vw;
+    }
+    
+    h4{
+        font-weight: bold;
+        font-size: 1.2vw;
+    }
+    
+    p{
+        font-size: 1vw;
+    }
+    img{
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/*l*/
+@media only screen and (min-width:  992px){
+    .container{
+        margin: 0 200px;
+        padding:auto;
+    }
+    h1{
+        font-size: 3vw;
+    }
+    
+    h4{
+        font-weight: bold;
+        font-size: 1.2vw;
+    }
+    
+    p{
+        font-size: 1vw;
+    }
+    img{
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+    }
+}
