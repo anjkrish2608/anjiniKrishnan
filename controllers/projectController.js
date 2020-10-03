@@ -7,6 +7,11 @@ module.exports = {
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
+  findSpecific: function(req, res) {
+    db.Project.findById({index:req.params.id})
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
   remove: function(req, res) {
     db.Project.findById({ _id: req.params.id })
       .then(dbModel => dbModel.remove())

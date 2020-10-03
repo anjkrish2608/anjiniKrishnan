@@ -2,7 +2,7 @@ import React from "react";
 
 import Container from "../../components/Container";
 import Row from "../../components/Row";
-import Col from "../../components/Col";
+import Cols from "../../components/Col";
 import displayPic from "./assets/profilepic.jpg";
 import FontAwesome from 'react-fontawesome'
 
@@ -13,10 +13,10 @@ function Home() {
 
         <Container>
             <Row>
-                <Col size="col-lg-2 d-xs-none">
+                <Cols size="col-lg-2 d-xs-none">
 
-                </Col>
-                <Col size="col-lg-6 main">
+                </Cols>
+                <Cols size="col-lg-6 main">
                     <h1>About Me</h1>
                         <p>
                         Back-end Developer studying a Bachelor of Mathematics and Computer Science at the University of
@@ -31,16 +31,16 @@ function Home() {
                         <a href="https://github.com/anjkrish2608" target="_blank" rel="noopener noreferrer"><FontAwesome className="fab fa-github"></FontAwesome> Github</a>
                             <br />
                         <a href="./assets/public_resume.pdf" target="_blank" rel="noopener noreferrer"><FontAwesome className="far fa-file"></FontAwesome> Cirriculum Vitae</a>
-                </Col>
-                <Col size="col-lg-3 main">
-                    <img src={displayPic} alt="Anjini Krishnan" class="img-fluid" />
-                </Col>
+                </Cols>
+                <Cols size="col-lg-3 main">
+                    <img src={displayPic} alt="Anjini Krishnan" className="img-fluid" />
+                </Cols>
             </Row>
             <Row>
-                <Col size="col-lg-2 d-xs-none">
+                <Cols size="col-lg-2 d-xs-none">
 
-                </Col>
-                <Col size="col-lg-3 main">
+                </Cols>
+                <Cols size="col-lg-3 main">
                 <h4>Technologies</h4>
                 <p>
                     ReactJS and Handlebars.js
@@ -51,8 +51,8 @@ function Home() {
                     <br />
                     Firebase and Bootstrap
                 </p>
-                </Col>
-                <Col size="col-lg-3 main">
+                </Cols>
+                <Cols size="col-lg-3 main">
                 <h4>Areas of Interest</h4>
                 <p>
                     
@@ -64,7 +64,7 @@ function Home() {
                     <br />
                     Statistics
                 </p>
-                </Col>
+                </Cols>
             </Row>
         </Container>
     )
